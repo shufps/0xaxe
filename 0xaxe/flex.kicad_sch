@@ -14106,7 +14106,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "flex2_sch.kicad_sch"
+		(property "Sheetfile" "flex2.kicad_sch"
 			(at 135.89 141.5546 0)
 			(effects
 				(font
