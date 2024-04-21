@@ -11,8 +11,12 @@
 
 0xAxe is working (see screenshot at the end of the page to get an impression what to expect) 🥳
 
+**note**: The 0xAxe is not a stand-alone device because it only supports USB but it can be run connected to a Raspberry Pi without problems. Also multiple devices can be connected to a single Pi. 
+
 ASICs
 =====
+
+The 0xAxe uses 16 ASICs of type BM1366
 
 ![image](https://github.com/shufps/0xaxe/assets/3079832/0f3c1088-be82-4bf8-898d-34b336d1b7bd)
 
