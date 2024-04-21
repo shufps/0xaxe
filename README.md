@@ -5,3 +5,14 @@
 
 
 WiP, untested!
+
+
+Mining Client
+=============
+
+![image](https://github.com/shufps/0xaxe/assets/3079832/8c144fcf-1d3e-4634-a884-1094abb9330f)
+
+
+
+Stratum Mining Client:<br>
+https://github.com/shufps/piaxe-miner
