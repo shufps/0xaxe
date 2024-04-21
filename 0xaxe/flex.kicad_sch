@@ -3618,6 +3618,39 @@
 		)
 		(uuid "ff389807-815b-4c4a-aca0-190e5f9b2b2c")
 	)
+	(label "NRSTO_1"
+		(at 123.19 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01e35b9d-1af1-467a-97fd-9634fb602f33")
+	)
+	(label "NRSTO_2"
+		(at 123.19 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "153a55e4-34c8-41d3-9a80-f1efd80389dd")
+	)
+	(label "BO_1"
+		(at 121.92 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ab5eca7-47e6-4e4b-b41d-fa2f242dcc4c")
+	)
 	(label "+1V2"
 		(at 175.26 215.9 0)
 		(fields_autoplaced yes)
@@ -3629,6 +3662,50 @@
 		)
 		(uuid "42c9c0a9-9a17-4302-a4e9-c8f90853ff17")
 	)
+	(label "CO_2"
+		(at 119.38 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44091ed5-ba7d-4e7e-adf4-f646415d9660")
+	)
+	(label "CO_3"
+		(at 119.38 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f5b35e1-938b-4776-9812-bc229289b635")
+	)
+	(label "BO_2"
+		(at 121.92 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51a1d7f5-89f3-43a6-a4e1-19c478bd5a78")
+	)
+	(label "NRSTO_3"
+		(at 123.19 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68f00405-3c18-42ba-9bf2-1772c3a156b7")
+	)
 	(label "2.5V"
 		(at 264.16 68.58 0)
 		(fields_autoplaced yes)
@@ -3639,6 +3716,94 @@
 			(justify left bottom)
 		)
 		(uuid "6b345669-cb85-4b68-81fe-06c2b87c06b7")
+	)
+	(label "BO_3"
+		(at 121.92 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b386202-79d9-4951-b4b2-28c714a35215")
+	)
+	(label "CO_1"
+		(at 119.38 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f2a5f8b-8157-41f4-8303-de956bd3477e")
+	)
+	(label "VDD_REF_3"
+		(at 124.46 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f79576e-5cbf-4310-a29c-7c8bb6e72a3f")
+	)
+	(label "RI_1"
+		(at 120.65 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75ca6e58-a0b2-4e32-9f42-f611b018fb21")
+	)
+	(label "RI_3"
+		(at 120.65 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88df8a86-e8ff-47ea-be07-b31d44d9824d")
+	)
+	(label "VDD_REF_1"
+		(at 124.46 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abdf3413-654e-422f-a57d-d07254cef785")
+	)
+	(label "RI_2"
+		(at 120.65 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfa88948-4d52-46b7-8aa1-ddce3eee2e27")
+	)
+	(label "VDD_REF_2"
+		(at 124.46 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f15aa610-2fc7-4f9c-8d42-890f64725acf")
 	)
 	(global_label "V3_G2"
 		(shape passive)
@@ -6338,7 +6503,7 @@
 		(dnp no)
 		(uuid "6dd80344-ec67-48c8-920e-5529c4ba1892")
 		(property "Reference" "R8"
-			(at 123.825 171.45 90)
+			(at 132.715 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,7 +7382,7 @@
 		(dnp no)
 		(uuid "8f39969e-bf56-4b08-aa4c-3c90137c40ff")
 		(property "Reference" "R6"
-			(at 123.825 90.17 90)
+			(at 132.715 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9683,7 +9848,7 @@
 		(dnp no)
 		(uuid "e93bab33-8f4f-431d-a452-25263ba36b5a")
 		(property "Reference" "R7"
-			(at 123.825 129.54 90)
+			(at 132.715 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)

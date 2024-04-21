@@ -5599,16 +5599,6 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 77.47) (xy 373.38 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5cdf354-6eae-431f-b205-1a1b8d7a010d")
-	)
-	(wire
-		(pts
 			(xy 179.07 173.99) (xy 179.07 175.26)
 		)
 		(stroke
@@ -6259,6 +6249,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 77.47) (xy 373.38 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b604c6-9935-45f2-94ae-78dca2a4277d")
+	)
+	(wire
+		(pts
 			(xy 156.21 182.88) (xy 156.21 184.15)
 		)
 		(stroke
@@ -6623,7 +6623,7 @@
 		)
 		(uuid 5c12a2ab-e9a0-4ae9-a075-2ae74490ddf5)
 	)
-	(text "+0V8 LDO"
+	(text "+0V8_3 LDO"
 		(exclude_from_sim no)
 		(at 52.07 216.408 0)
 		(effects
@@ -8043,7 +8043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+0V8"
+		(property "Value" "+0V8_3"
 			(at 156.21 170.815 90)
 			(effects
 				(font
@@ -8184,7 +8184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+0V8"
+		(property "Value" "+0V8_3"
 			(at 280.035 87.63 90)
 			(effects
 				(font
@@ -8325,7 +8325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+0V8"
+		(property "Value" "+0V8_3"
 			(at 179.07 170.815 90)
 			(effects
 				(font
@@ -8467,7 +8467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+0V8"
+		(property "Value" "+0V8_3"
 			(at 162.56 170.815 90)
 			(effects
 				(font
@@ -11093,7 +11093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+0V8"
+		(property "Value" "+0V8_3"
 			(at 197.485 87.63 90)
 			(effects
 				(font
@@ -11432,7 +11432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+0V8"
+		(property "Value" "+0V8_3"
 			(at 307.975 87.63 90)
 			(effects
 				(font
@@ -11507,7 +11507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+0V8"
+		(property "Value" "+0V8_3"
 			(at 361.315 87.63 90)
 			(effects
 				(font
@@ -11582,7 +11582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+0V8"
+		(property "Value" "+0V8_3"
 			(at 69.85 225.425 90)
 			(effects
 				(font
@@ -13155,7 +13155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+0V8"
+		(property "Value" "+0V8_3"
 			(at 144.145 87.63 90)
 			(effects
 				(font
@@ -13317,7 +13317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+0V8"
+		(property "Value" "+0V8_3"
 			(at 226.695 87.63 90)
 			(effects
 				(font
@@ -17282,7 +17282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+0V8"
+		(property "Value" "+0V8_3"
 			(at 190.5 170.815 90)
 			(effects
 				(font
@@ -18761,7 +18761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+0V8"
+		(property "Value" "+0V8_3"
 			(at 195.58 170.815 90)
 			(effects
 				(font
@@ -19209,7 +19209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+0V8"
+		(property "Value" "+0V8_3"
 			(at 116.205 87.63 90)
 			(effects
 				(font
@@ -20311,7 +20311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+0V8"
+		(property "Value" "+0V8_3"
 			(at 62.865 87.63 90)
 			(effects
 				(font
@@ -21110,7 +21110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+0V8"
+		(property "Value" "+0V8_3"
 			(at 173.99 170.815 90)
 			(effects
 				(font
@@ -21185,7 +21185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+0V8"
+		(property "Value" "+0V8_3"
 			(at 167.64 170.815 90)
 			(effects
 				(font
@@ -21393,7 +21393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+0V8"
+		(property "Value" "+0V8_3"
 			(at 184.15 170.815 90)
 			(effects
 				(font

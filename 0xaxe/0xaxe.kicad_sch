@@ -1554,16 +1554,16 @@
 		(uuid "8bfd1fbf-bdc7-4d9a-b156-0e9f63c8c060")
 	)
 	(junction
-		(at 77.47 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9dc76d29-514e-41b1-b29a-fef67bae064e")
-	)
-	(junction
 		(at 71.12 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bac1758c-d4f8-4f2f-acab-9b71ba6f02ce")
+		(uuid "bfe1e8d5-db1b-4ffb-9669-a1981cbc1963")
+	)
+	(junction
+		(at 79.375 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4d42069-32db-4f4c-9d9c-090d188e820a")
 	)
 	(wire
 		(pts
@@ -1857,13 +1857,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 20.32) (xy 77.47 20.32)
+			(xy 71.12 20.32) (xy 79.375 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82a9a163-633b-4f2a-9b14-a05c0d0dceb1")
+		(uuid "7314cde6-53dc-4284-bcbc-9142be51a869")
 	)
 	(wire
 		(pts
@@ -1917,6 +1917,16 @@
 	)
 	(wire
 		(pts
+			(xy 79.375 20.32) (xy 87.63 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d050a4d-3910-4a6e-b44d-54b675621520")
+	)
+	(wire
+		(pts
 			(xy 158.75 95.25) (xy 171.45 95.25)
 		)
 		(stroke
@@ -1937,7 +1947,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 20.32) (xy 77.47 21.59)
+			(xy 79.375 20.32) (xy 79.375 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1987,7 +1997,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 29.21) (xy 77.47 30.48)
+			(xy 79.375 29.21) (xy 79.375 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2034,16 +2044,6 @@
 			(type default)
 		)
 		(uuid "d4bb4fee-a6a7-4e65-a766-080f1fa7f9fc")
-	)
-	(wire
-		(pts
-			(xy 77.47 20.32) (xy 71.12 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e27f9f21-8f53-4b99-9f2a-61b38208c858")
 	)
 	(wire
 		(pts
@@ -2250,7 +2250,7 @@
 	)
 	(symbol
 		(lib_id "Diode:5KPxxA")
-		(at 77.47 25.4 270)
+		(at 79.375 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2258,7 +2258,7 @@
 		(dnp no)
 		(uuid "1a988b3b-aa5f-4665-9175-a5ba3afc2fc6")
 		(property "Reference" "D3"
-			(at 73.025 29.21 0)
+			(at 74.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2267,7 +2267,7 @@
 			)
 		)
 		(property "Value" "SMBJ5.0A"
-			(at 74.93 22.86 0)
+			(at 76.835 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +2276,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 72.39 25.4 0)
+			(at 74.295 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 24.13 0)
+			(at 79.375 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,7 +2294,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 25.4 0)
+			(at 79.375 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,7 +2303,7 @@
 			)
 		)
 		(property "Distributor" "D"
-			(at 77.47 25.4 0)
+			(at 79.375 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2312,7 +2312,7 @@
 			)
 		)
 		(property "Manufacturer" "SMBJ5.0A"
-			(at 77.47 25.4 0)
+			(at 79.375 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2321,7 +2321,7 @@
 			)
 		)
 		(property "OrderNr" "SMBJ5.0ALFCT-ND"
-			(at 77.47 25.4 0)
+			(at 79.375 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,7 +2691,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 30.48 0)
+		(at 79.375 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2699,7 +2699,7 @@
 		(dnp no)
 		(uuid "51387328-9c95-427a-85e0-3e1ae0a94022")
 		(property "Reference" "#PWR012"
-			(at 77.47 36.83 0)
+			(at 79.375 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +2708,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.597 34.8742 0)
+			(at 79.502 34.8742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,7 +2716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 30.48 0)
+			(at 79.375 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,7 +2725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 30.48 0)
+			(at 79.375 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,7 +2734,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 30.48 0)
+			(at 79.375 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
