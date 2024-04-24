@@ -267,6 +267,239 @@
 				)
 			)
 		)
+		(symbol "Device:R_Network04_Split"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN1"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 resistor network, star topology, bussed resistors, split"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network star-topology"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R?Array?SIP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Network04_Split_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_2_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_3_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_4_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Oscillator:ASDMB-xxxMHz"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -422,6 +655,705 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "R_Network04_Split_1"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN1"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 resistor network, star topology, bussed resistors, split"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network star-topology"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R?Array?SIP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Network04_Split_1_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_1_2_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_1_3_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_1_4_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "R_Network04_Split_2"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN1"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 resistor network, star topology, bussed resistors, split"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network star-topology"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R?Array?SIP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Network04_Split_2_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_2_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_2_2_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_2_3_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_2_4_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "R_Network04_Split_3"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN1"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 resistor network, star topology, bussed resistors, split"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network star-topology"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R?Array?SIP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Network04_Split_3_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_3_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_3_2_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_3_3_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Network04_Split_3_4_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4310,7 +5242,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 177.8) (xy 203.2 177.8)
+			(xy 200.66 177.8) (xy 208.28 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5387,16 +6319,6 @@
 			(type default)
 		)
 		(uuid "50c051e5-7f71-4d61-a8ba-cba0c5ca96d8")
-	)
-	(wire
-		(pts
-			(xy 210.82 177.8) (xy 215.9 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51d72f6d-56f1-4cb4-851b-771fbc9a6e6a")
 	)
 	(wire
 		(pts
@@ -7754,7 +8676,7 @@
 		)
 		(uuid "80596936-0359-4d53-9596-cfc6975aaf0f")
 	)
-	(label "VDD_1"
+	(label "+1V2_0"
 		(at 157.48 226.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7765,7 +8687,7 @@
 		)
 		(uuid "878df112-3e8d-4b84-a8e1-3ca492f2b067")
 	)
-	(label "VDD_1"
+	(label "+1V2_0"
 		(at 93.98 226.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7798,7 +8720,7 @@
 		)
 		(uuid "b7029cc4-fbfb-4d77-9ad3-41192f4d66d5")
 	)
-	(label "GND_1"
+	(label "GND_0"
 		(at 157.48 220.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7809,7 +8731,7 @@
 		)
 		(uuid "c1a5ca85-cbcb-4c79-81bf-917355cb4f97")
 	)
-	(label "GND_1"
+	(label "GND_0"
 		(at 93.98 175.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7821,17 +8743,17 @@
 		(uuid "c58eaf46-f82d-4763-8954-1b12d5647c63")
 	)
 	(label "VDD_REF_I_0"
-		(at 45.72 43.18 0)
+		(at 55.88 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d3f7c8bc-6893-42f1-84b9-4f32ad928c14")
 	)
-	(label "GND_1"
+	(label "GND_0"
 		(at 93.98 220.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7842,7 +8764,7 @@
 		)
 		(uuid "d8aeaff5-9438-488d-bf5e-94ece9648ed7")
 	)
-	(label "VDD_1"
+	(label "+1V2_0"
 		(at 93.98 180.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7864,7 +8786,7 @@
 		)
 		(uuid "e84587c2-569b-4e34-8e9c-752d47c38e1e")
 	)
-	(label "GND_1"
+	(label "GND_0"
 		(at 157.48 175.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7956,7 +8878,7 @@
 	)
 	(hierarchical_label "RO_0"
 		(shape output)
-		(at 215.9 177.8 0)
+		(at 208.28 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8672,91 +9594,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 107.95 231.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "082ca7a6-56f3-41b8-afe8-6f8ee45c953f")
-		(property "Reference" "R49"
-			(at 107.95 229.235 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 107.95 231.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 107.95 232.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-10KJRCT-ND"
-			(at 107.95 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402JR-0710KL"
-			(at 107.95 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "572484d0-7a9c-4a91-9a85-505b0a27d4ca")
-		)
-		(pin "2"
-			(uuid "bf1bc0b1-f08c-4917-a660-1320df0e3992")
-		)
-		(instances
-			(project "0xaxe"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
-					(reference "R49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mylib7:+1V2_0")
 		(at 261.62 193.04 0)
 		(unit 1)
@@ -9302,6 +10139,92 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Network04_Split_3")
+		(lib_id "Device:R_Network04_Split")
+		(at 107.95 220.98 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ef2ad3b-dccc-4a67-8ca1-2e76fdf47a69")
+		(property "Reference" "RN2"
+			(at 107.95 219.075 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 107.95 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+			(at 107.95 218.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 107.95 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 107.95 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9ca0f90b-11b1-4e9a-863b-f18cae05e72e")
+		)
+		(pin "7"
+			(uuid "e5b13cc2-05fd-4d04-83cf-262c513c778f")
+		)
+		(pin "4"
+			(uuid "168fec0f-f064-4702-9b09-237eb844c190")
+		)
+		(pin "1"
+			(uuid "c989df7b-4f0a-4a51-a087-b274ef46d60e")
+		)
+		(pin "2"
+			(uuid "d35266db-e466-425e-bf2b-b80878aef0ca")
+		)
+		(pin "3"
+			(uuid "2b5cba18-ce11-4936-b067-4b6373761182")
+		)
+		(pin "6"
+			(uuid "eafc0890-4c76-44ac-a9fc-135e98be8885")
+		)
+		(pin "8"
+			(uuid "18e76dba-08a1-4e00-a4c8-96c8114730fe")
+		)
+		(instances
+			(project "0xaxe"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
+					(reference "RN2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mylib7:GND_0")
 		(at 325.12 203.2 0)
 		(unit 1)
@@ -9782,6 +10705,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 168.91 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19b9da84-15f6-4eea-a574-6939dd07504d")
+		(property "Reference" "RN3"
+			(at 168.91 178.435 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 168.91 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+			(at 168.91 182.372 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 168.91 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 168.91 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "9ca0f90b-11b1-4e9a-863b-f18cae05e72d")
+		)
+		(pin "6"
+			(uuid "e5b13cc2-05fd-4d04-83cf-262c513c778e")
+		)
+		(pin "4"
+			(uuid "812acf81-2f95-40a6-81a7-4e0dc20541b9")
+		)
+		(pin "1"
+			(uuid "7735829c-645a-4c9e-87f4-9a57854642df")
+		)
+		(pin "2"
+			(uuid "5bd4dc0a-98bc-478d-8876-f650753c12eb")
+		)
+		(pin "3"
+			(uuid "0eb0e0c2-dfbd-4b65-ab1d-46bd7afdbbd0")
+		)
+		(pin "5"
+			(uuid "e5b1b1b5-1a63-4d0e-81a4-0dd7d6539977")
+		)
+		(pin "8"
+			(uuid "a37bcc54-b420-40d0-9500-9086fbe52aab")
+		)
+		(instances
+			(project "0xaxe"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
+					(reference "RN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mylib7:GND_0")
 		(at 347.98 167.64 0)
 		(mirror y)
@@ -10002,6 +11010,92 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Network04_Split_3")
+		(lib_id "Device:R_Network04_Split")
+		(at 168.91 226.06 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1df54324-5a17-4f4e-bae2-cadd144e1e5b")
+		(property "Reference" "RN4"
+			(at 168.91 224.155 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 168.91 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+			(at 168.91 224.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 168.91 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 168.91 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9ca0f90b-11b1-4e9a-863b-f18cae05e72f")
+		)
+		(pin "7"
+			(uuid "e5b13cc2-05fd-4d04-83cf-262c513c7790")
+		)
+		(pin "4"
+			(uuid "6b6c2858-f1c4-4c37-b43b-96b920da6a3e")
+		)
+		(pin "1"
+			(uuid "c989df7b-4f0a-4a51-a087-b274ef46d60f")
+		)
+		(pin "2"
+			(uuid "d35266db-e466-425e-bf2b-b80878aef0cb")
+		)
+		(pin "3"
+			(uuid "2a17c4e0-4ab2-4b20-871f-dd5652e18898")
+		)
+		(pin "6"
+			(uuid "eafc0890-4c76-44ac-a9fc-135e98be8886")
+		)
+		(pin "8"
+			(uuid "18e76dba-08a1-4e00-a4c8-96c8114730ff")
+		)
+		(instances
+			(project "0xaxe"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
+					(reference "RN4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mylib7:GND_0")
 		(at 312.42 167.64 0)
 		(mirror y)
@@ -10128,6 +11222,92 @@
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
 					(reference "#PWR0206")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Network04_Split_2")
+		(lib_id "Device:R_Network04_Split")
+		(at 168.91 185.42 270)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21277d5d-7b7f-445a-aa16-d1c4223df5b2")
+		(property "Reference" "RN3"
+			(at 168.91 183.515 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 168.91 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+			(at 168.91 183.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 168.91 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 168.91 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9ca0f90b-11b1-4e9a-863b-f18cae05e72b")
+		)
+		(pin "4"
+			(uuid "e5b13cc2-05fd-4d04-83cf-262c513c778c")
+		)
+		(pin "2"
+			(uuid "812acf81-2f95-40a6-81a7-4e0dc20541b7")
+		)
+		(pin "7"
+			(uuid "4bf4aa1e-b185-4af3-a220-5f746e974a59")
+		)
+		(pin "1"
+			(uuid "d35266db-e466-425e-bf2b-b80878aef0c7")
+		)
+		(pin "3"
+			(uuid "a201b936-3541-4b84-9b21-3c31a56d8955")
+		)
+		(pin "6"
+			(uuid "9b586bf3-0928-49c2-a379-86ed81b55a19")
+		)
+		(pin "8"
+			(uuid "c5641ec9-7563-403d-88d2-85b36efd04bb")
+		)
+		(instances
+			(project "0xaxe"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
+					(reference "RN3")
+					(unit 4)
 				)
 			)
 		)
@@ -10492,91 +11672,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 207.01 177.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23f3e6cc-1cb3-4cf7-a711-9a1a4ecacfd3")
-		(property "Reference" "R70"
-			(at 207.01 175.895 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 207.01 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 207.01 176.022 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 207.01 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-1.00KLRCT-ND"
-			(at 207.01 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-071KL"
-			(at 207.01 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37e54b2a-e79b-42a7-9f9a-c54f68506352")
-		)
-		(pin "2"
-			(uuid "33946965-fff6-4cd2-9b61-f5ca123d28d4")
-		)
-		(instances
-			(project "0xaxe"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
-					(reference "R70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mylib7:+1V8_0")
 		(at 142.24 101.6 90)
 		(unit 1)
@@ -10636,91 +11731,6 @@
 			(project "0xaxe"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
 					(reference "#PWR0190")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 168.91 226.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a15c0de-8729-406d-9732-489e03f3015a")
-		(property "Reference" "R66"
-			(at 168.91 224.155 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 168.91 226.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 168.91 227.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 168.91 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-10KJRCT-ND"
-			(at 168.91 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402JR-0710KL"
-			(at 168.91 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4fc0a3b7-6534-41c3-aedc-6d4927856d23")
-		)
-		(pin "2"
-			(uuid "f0ecbe41-d760-43d7-b8ea-e6b342cedc69")
-		)
-		(instances
-			(project "0xaxe"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
-					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -10894,7 +11904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "qaxe:BM1366"
+		(property "Footprint" "bitvein:BM1366"
 			(at 322.58 86.36 0)
 			(effects
 				(font
@@ -11030,91 +12040,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 125.73 162.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2bb69078-8b77-4b31-8e8f-3bce0507acac")
-		(property "Reference" "R54"
-			(at 125.73 160.655 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 125.73 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 125.73 160.782 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 125.73 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-1.00KLRCT-ND"
-			(at 125.73 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-071KL"
-			(at 125.73 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9228482f-5ed4-4d78-a46b-0586eba57e2b")
-		)
-		(pin "2"
-			(uuid "651a1e8c-dea0-4ee5-a624-cb0ada29d4c4")
-		)
-		(instances
-			(project "0xaxe"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
-					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mylib7:+1V8_0")
 		(at 226.06 101.6 90)
 		(unit 1)
@@ -11241,91 +12166,6 @@
 			(project "0xaxe"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 168.91 175.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2decd464-066a-4038-9bec-7c1647d5ac20")
-		(property "Reference" "R62"
-			(at 168.91 173.355 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 168.91 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 168.91 173.482 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 168.91 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-1.00KLRCT-ND"
-			(at 168.91 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-071KL"
-			(at 168.91 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f0169b7-9807-4933-857a-b3d37297b4a2")
-		)
-		(pin "2"
-			(uuid "c233a45d-4e2a-48f5-b282-dab5b187b64f")
-		)
-		(instances
-			(project "0xaxe"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
-					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -12224,7 +13064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "qaxe:BM1366"
+		(property "Footprint" "bitvein:BM1366"
 			(at 78.74 86.36 0)
 			(effects
 				(font
@@ -12665,91 +13505,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 189.23 208.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "468c5ca7-69b9-4f0d-9758-485a794066a3")
-		(property "Reference" "R69"
-			(at 189.23 206.375 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 189.23 208.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 189.23 206.502 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 189.23 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-1.00KLRCT-ND"
-			(at 189.23 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-071KL"
-			(at 189.23 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3ffa554-11c7-4e8e-a9d8-5941a77d9799")
-		)
-		(pin "2"
-			(uuid "99310b7a-a146-4221-bc1c-a39cc46473ca")
-		)
-		(instances
-			(project "0xaxe"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
-					(reference "R69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 285.75 60.96 90)
 		(unit 1)
@@ -13076,91 +13831,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 168.91 220.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "500d2bd5-99bd-487c-aa83-0e8222bcd3ba")
-		(property "Reference" "R65"
-			(at 168.91 219.075 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 168.91 220.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 168.91 219.202 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 168.91 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-1.00KLRCT-ND"
-			(at 168.91 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-071KL"
-			(at 168.91 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d02bdb79-7b36-4a5e-b4df-a28f388a3b3c")
-		)
-		(pin "2"
-			(uuid "56e3601f-5975-4e16-a1ae-a298a29e2fe9")
-		)
-		(instances
-			(project "0xaxe"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
-					(reference "R65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mylib7:+6.5V")
 		(at 30.48 198.12 0)
 		(unit 1)
@@ -13221,91 +13891,6 @@
 			(project "0xaxe"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
 					(reference "#PWR0491")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 168.91 185.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51b6b8db-5505-4c23-a940-9f45bace62de")
-		(property "Reference" "R64"
-			(at 168.91 183.515 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 168.91 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 168.91 187.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 168.91 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-10KJRCT-ND"
-			(at 168.91 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402JR-0710KL"
-			(at 168.91 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af5cfafd-c465-448b-a313-d164818eb01e")
-		)
-		(pin "2"
-			(uuid "7598273c-812d-484c-806c-ea2cdde22ab4")
-		)
-		(instances
-			(project "0xaxe"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
-					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -14009,6 +14594,92 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Network04_Split_2")
+		(lib_id "Device:R_Network04_Split")
+		(at 107.95 231.14 270)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6acba0ac-f92f-4bd2-8fc0-8f8b5fb1e282")
+		(property "Reference" "RN2"
+			(at 107.95 229.235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 107.95 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+			(at 107.95 229.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 107.95 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 107.95 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9ca0f90b-11b1-4e9a-863b-f18cae05e72c")
+		)
+		(pin "4"
+			(uuid "e5b13cc2-05fd-4d04-83cf-262c513c778d")
+		)
+		(pin "2"
+			(uuid "812acf81-2f95-40a6-81a7-4e0dc20541b8")
+		)
+		(pin "7"
+			(uuid "b636be40-ad4f-4581-8563-82ffd500e3c3")
+		)
+		(pin "1"
+			(uuid "d35266db-e466-425e-bf2b-b80878aef0c8")
+		)
+		(pin "3"
+			(uuid "a201b936-3541-4b84-9b21-3c31a56d8956")
+		)
+		(pin "6"
+			(uuid "9b586bf3-0928-49c2-a379-86ed81b55a1a")
+		)
+		(pin "8"
+			(uuid "e0f2e184-9aef-4ef3-bc5d-e3daa8ff4ba1")
+		)
+		(instances
+			(project "0xaxe"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
+					(reference "RN2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mylib7:+1V2_0")
 		(at 88.9 43.18 0)
 		(unit 1)
@@ -14235,7 +14906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "qaxe:BM1366"
+		(property "Footprint" "bitvein:BM1366"
 			(at 160.02 86.36 0)
 			(effects
 				(font
@@ -14794,6 +15465,92 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Network04_Split_2")
+		(lib_id "Device:R_Network04_Split")
+		(at 107.95 180.34 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74ae4f3c-a519-4700-9f73-adf8380ac189")
+		(property "Reference" "RN1"
+			(at 107.95 178.435 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 107.95 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+			(at 107.95 182.372 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 107.95 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 107.95 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9ca0f90b-11b1-4e9a-863b-f18cae05e730")
+		)
+		(pin "4"
+			(uuid "e5b13cc2-05fd-4d04-83cf-262c513c7791")
+		)
+		(pin "2"
+			(uuid "812acf81-2f95-40a6-81a7-4e0dc20541ba")
+		)
+		(pin "7"
+			(uuid "c989df7b-4f0a-4a51-a087-b274ef46d60b")
+		)
+		(pin "1"
+			(uuid "d35266db-e466-425e-bf2b-b80878aef0c9")
+		)
+		(pin "3"
+			(uuid "a201b936-3541-4b84-9b21-3c31a56d8957")
+		)
+		(pin "6"
+			(uuid "9b586bf3-0928-49c2-a379-86ed81b55a1b")
+		)
+		(pin "8"
+			(uuid "bba2a62f-7878-4055-a418-4307ec6a8d75")
+		)
+		(instances
+			(project "0xaxe"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
+					(reference "RN1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mylib7:+1V2_0")
 		(at 388.62 226.06 0)
 		(unit 1)
@@ -14929,91 +15686,6 @@
 			(project "0xaxe"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
 					(reference "U28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 168.91 180.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7739941c-d733-4499-b1e5-e82f95514865")
-		(property "Reference" "R63"
-			(at 168.91 178.435 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 168.91 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 168.91 182.118 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 168.91 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-10KJRCT-ND"
-			(at 168.91 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402JR-0710KL"
-			(at 168.91 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0578c7b3-580a-4db3-9395-ba2d96c50b21")
-		)
-		(pin "2"
-			(uuid "1c6e6ecc-91d6-4e98-a1b2-270755784245")
-		)
-		(instances
-			(project "0xaxe"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
-					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -16544,91 +17216,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 168.91 231.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91a58a2a-4ca0-495f-9e19-e917f5bd1200")
-		(property "Reference" "R67"
-			(at 168.91 229.235 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 168.91 231.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 168.91 232.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 168.91 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-10KJRCT-ND"
-			(at 168.91 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402JR-0710KL"
-			(at 168.91 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e2edcd2-7d59-455c-9dad-6cd5c5792df3")
-		)
-		(pin "2"
-			(uuid "0cd16d39-b0b6-43fd-92e8-7ab4fda12980")
-		)
-		(instances
-			(project "0xaxe"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
-					(reference "R67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mylib7:GND_0")
 		(at 60.96 213.36 0)
 		(unit 1)
@@ -16957,6 +17544,92 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Network04_Split_1")
+		(lib_id "Device:R_Network04_Split")
+		(at 189.23 162.56 270)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96e4194a-d7f3-48df-b743-ba910d07d86e")
+		(property "Reference" "RN3"
+			(at 189.23 160.655 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 189.23 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+			(at 189.23 160.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 189.23 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 189.23 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "9ca0f90b-11b1-4e9a-863b-f18cae05e731")
+		)
+		(pin "4"
+			(uuid "e5b13cc2-05fd-4d04-83cf-262c513c7792")
+		)
+		(pin "6"
+			(uuid "88a0c87e-8d80-465e-b4bb-c53dde213ca2")
+		)
+		(pin "2"
+			(uuid "c989df7b-4f0a-4a51-a087-b274ef46d60c")
+		)
+		(pin "1"
+			(uuid "d35266db-e466-425e-bf2b-b80878aef0cc")
+		)
+		(pin "3"
+			(uuid "8e777cfa-15d9-4dcd-9160-18dfb6fd161b")
+		)
+		(pin "5"
+			(uuid "b7023d3b-f44d-4c14-ad79-fdde9c3fec77")
+		)
+		(pin "8"
+			(uuid "10791f17-339f-43d1-938b-7f13143322b1")
+		)
+		(instances
+			(project "0xaxe"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
+					(reference "RN3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 204.47 60.96 90)
 		(unit 1)
@@ -17106,6 +17779,92 @@
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
 					(reference "#PWR0249")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Network04_Split_3")
+		(lib_id "Device:R_Network04_Split")
+		(at 168.91 175.26 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98ddbede-b06b-429e-8ab0-dcd224edd0dc")
+		(property "Reference" "RN3"
+			(at 168.91 173.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 168.91 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+			(at 168.91 173.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 168.91 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 168.91 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9ca0f90b-11b1-4e9a-863b-f18cae05e732")
+		)
+		(pin "7"
+			(uuid "e5b13cc2-05fd-4d04-83cf-262c513c7793")
+		)
+		(pin "4"
+			(uuid "2e47b48e-c022-4416-9bde-566d29c5f659")
+		)
+		(pin "1"
+			(uuid "c989df7b-4f0a-4a51-a087-b274ef46d610")
+		)
+		(pin "2"
+			(uuid "d35266db-e466-425e-bf2b-b80878aef0cd")
+		)
+		(pin "3"
+			(uuid "d7e4141e-25ae-4b20-a89c-cb7e6203bd46")
+		)
+		(pin "6"
+			(uuid "eafc0890-4c76-44ac-a9fc-135e98be8887")
+		)
+		(pin "8"
+			(uuid "18e76dba-08a1-4e00-a4c8-96c811473100")
+		)
+		(instances
+			(project "0xaxe"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
+					(reference "RN3")
+					(unit 2)
 				)
 			)
 		)
@@ -17332,6 +18091,91 @@
 			(project "0xaxe"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
 					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 168.91 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dcd6435-7909-4910-800c-ca7a968b5652")
+		(property "Reference" "RN4"
+			(at 168.91 219.075 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 168.91 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+			(at 168.91 223.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 168.91 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 168.91 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "9ca0f90b-11b1-4e9a-863b-f18cae05e733")
+		)
+		(pin "6"
+			(uuid "e5b13cc2-05fd-4d04-83cf-262c513c7794")
+		)
+		(pin "4"
+			(uuid "812acf81-2f95-40a6-81a7-4e0dc20541bb")
+		)
+		(pin "1"
+			(uuid "9e345be2-08b7-4479-856b-85ca114bc8d7")
+		)
+		(pin "2"
+			(uuid "9a1cda77-19bc-47a9-af1a-9d5155942e0d")
+		)
+		(pin "3"
+			(uuid "0eb0e0c2-dfbd-4b65-ab1d-46bd7afdbbd1")
+		)
+		(pin "5"
+			(uuid "e5b1b1b5-1a63-4d0e-81a4-0dd7d6539978")
+		)
+		(pin "8"
+			(uuid "a37bcc54-b420-40d0-9500-9086fbe52aac")
+		)
+		(instances
+			(project "0xaxe"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
+					(reference "RN4")
 					(unit 1)
 				)
 			)
@@ -17718,91 +18562,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 107.95 220.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9fc236b7-6ff3-4d9b-87d5-eaf477407931")
-		(property "Reference" "R43"
-			(at 107.95 219.075 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 107.95 220.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 107.95 219.202 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-1.00KLRCT-ND"
-			(at 107.95 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-071KL"
-			(at 107.95 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "330a4304-5127-4f2f-a620-5f83e9078743")
-		)
-		(pin "2"
-			(uuid "d7410101-1d60-4854-905c-9cd20cb6cf58")
-		)
-		(instances
-			(project "0xaxe"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mylib7:GND_0")
 		(at 309.88 111.76 0)
 		(mirror y)
@@ -17864,91 +18623,6 @@
 			(project "0xaxe"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
 					(reference "#PWR0246")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 107.95 175.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3dca18c-8331-4bc1-b3f2-52f22cdd9e10")
-		(property "Reference" "R36"
-			(at 107.95 173.355 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 107.95 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 107.95 173.482 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-1.00KLRCT-ND"
-			(at 107.95 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-071KL"
-			(at 107.95 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f9e7879-0bb1-42b6-903f-007b9e07e241")
-		)
-		(pin "2"
-			(uuid "a4836dc0-00d9-45e4-9f12-fe2de8fde75b")
-		)
-		(instances
-			(project "0xaxe"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
-					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -18569,6 +19243,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 107.95 226.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9447110-de4c-4eab-a1f8-caf753875982")
+		(property "Reference" "RN2"
+			(at 107.95 224.155 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 107.95 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+			(at 107.95 228.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 107.95 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 107.95 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "9ca0f90b-11b1-4e9a-863b-f18cae05e734")
+		)
+		(pin "6"
+			(uuid "e5b13cc2-05fd-4d04-83cf-262c513c7795")
+		)
+		(pin "4"
+			(uuid "812acf81-2f95-40a6-81a7-4e0dc20541bc")
+		)
+		(pin "1"
+			(uuid "59098f50-98b4-4916-b8ca-11fe793632f9")
+		)
+		(pin "2"
+			(uuid "a8bc0469-b0f0-454e-ac39-4b4ed56932ec")
+		)
+		(pin "3"
+			(uuid "0eb0e0c2-dfbd-4b65-ab1d-46bd7afdbbd2")
+		)
+		(pin "5"
+			(uuid "e5b1b1b5-1a63-4d0e-81a4-0dd7d6539979")
+		)
+		(pin "8"
+			(uuid "a37bcc54-b420-40d0-9500-9086fbe52aad")
+		)
+		(instances
+			(project "0xaxe"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
+					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mylib7:+1V2_0")
 		(at 45.72 38.1 270)
 		(unit 1)
@@ -19097,7 +19856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "qaxe:BM1366"
+		(property "Footprint" "bitvein:BM1366"
 			(at 241.3 86.36 0)
 			(effects
 				(font
@@ -19691,6 +20450,263 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Network04_Split_1")
+		(lib_id "Device:R_Network04_Split")
+		(at 107.95 175.26 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd245a14-c2a4-459c-a414-3e98a11de64c")
+		(property "Reference" "RN1"
+			(at 107.95 173.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 107.95 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+			(at 107.95 177.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 107.95 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 107.95 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "9ca0f90b-11b1-4e9a-863b-f18cae05e735")
+		)
+		(pin "4"
+			(uuid "e5b13cc2-05fd-4d04-83cf-262c513c7796")
+		)
+		(pin "6"
+			(uuid "812acf81-2f95-40a6-81a7-4e0dc20541bd")
+		)
+		(pin "2"
+			(uuid "c989df7b-4f0a-4a51-a087-b274ef46d60d")
+		)
+		(pin "1"
+			(uuid "d35266db-e466-425e-bf2b-b80878aef0ce")
+		)
+		(pin "3"
+			(uuid "8e777cfa-15d9-4dcd-9160-18dfb6fd161c")
+		)
+		(pin "5"
+			(uuid "53cfd6e0-766e-42f7-8ec4-c42c3abf339c")
+		)
+		(pin "8"
+			(uuid "10791f17-339f-43d1-938b-7f13143322b2")
+		)
+		(instances
+			(project "0xaxe"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
+					(reference "RN1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Network04_Split_1")
+		(lib_id "Device:R_Network04_Split")
+		(at 125.73 208.28 270)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bea4d99f-8127-486d-a9e9-10e7a37a9784")
+		(property "Reference" "RN2"
+			(at 125.73 206.375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 125.73 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+			(at 125.73 206.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 125.73 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 125.73 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "9ca0f90b-11b1-4e9a-863b-f18cae05e736")
+		)
+		(pin "4"
+			(uuid "e5b13cc2-05fd-4d04-83cf-262c513c7797")
+		)
+		(pin "6"
+			(uuid "cd75b259-68bf-47c3-a1e5-f71daac175a5")
+		)
+		(pin "2"
+			(uuid "c989df7b-4f0a-4a51-a087-b274ef46d611")
+		)
+		(pin "1"
+			(uuid "d35266db-e466-425e-bf2b-b80878aef0cf")
+		)
+		(pin "3"
+			(uuid "8e777cfa-15d9-4dcd-9160-18dfb6fd161d")
+		)
+		(pin "5"
+			(uuid "c27b0211-9ec8-4993-9ab5-565a49fb91a8")
+		)
+		(pin "8"
+			(uuid "10791f17-339f-43d1-938b-7f13143322b3")
+		)
+		(instances
+			(project "0xaxe"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
+					(reference "RN2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Network04_Split")
+		(at 107.95 185.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bec5e8a3-d99e-4bb9-8a33-b5421b9eb32f")
+		(property "Reference" "RN1"
+			(at 107.95 183.515 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 107.95 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+			(at 107.95 183.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 107.95 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 107.95 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "9ca0f90b-11b1-4e9a-863b-f18cae05e737")
+		)
+		(pin "6"
+			(uuid "e5b13cc2-05fd-4d04-83cf-262c513c7798")
+		)
+		(pin "4"
+			(uuid "812acf81-2f95-40a6-81a7-4e0dc20541be")
+		)
+		(pin "1"
+			(uuid "c989df7b-4f0a-4a51-a087-b274ef46d612")
+		)
+		(pin "2"
+			(uuid "d35266db-e466-425e-bf2b-b80878aef0d0")
+		)
+		(pin "3"
+			(uuid "0eb0e0c2-dfbd-4b65-ab1d-46bd7afdbbd3")
+		)
+		(pin "5"
+			(uuid "e5b1b1b5-1a63-4d0e-81a4-0dd7d653997a")
+		)
+		(pin "8"
+			(uuid "a37bcc54-b420-40d0-9500-9086fbe52aae")
+		)
+		(instances
+			(project "0xaxe"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
+					(reference "RN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 298.45 60.96 90)
 		(unit 1)
@@ -19772,91 +20788,6 @@
 			(project "0xaxe"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
 					(reference "C92")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 125.73 208.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf94d909-3f41-41cc-ae79-f76eaa44e300")
-		(property "Reference" "R55"
-			(at 125.73 206.375 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 125.73 208.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 125.73 206.502 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 125.73 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-1.00KLRCT-ND"
-			(at 125.73 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-071KL"
-			(at 125.73 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76cd6351-de06-4225-84fc-4ddad7eefae6")
-		)
-		(pin "2"
-			(uuid "8d7b2625-2741-4458-92bd-74743d25c3f0")
-		)
-		(instances
-			(project "0xaxe"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
-					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -20010,6 +20941,92 @@
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
 					(reference "C61")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Network04_Split_3")
+		(lib_id "Device:R_Network04_Split")
+		(at 125.73 162.56 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c435f319-b136-43d3-9633-784d6aae8fb8")
+		(property "Reference" "RN1"
+			(at 125.73 160.655 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 125.73 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+			(at 125.73 164.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 125.73 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 125.73 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9ca0f90b-11b1-4e9a-863b-f18cae05e738")
+		)
+		(pin "7"
+			(uuid "e5b13cc2-05fd-4d04-83cf-262c513c7799")
+		)
+		(pin "4"
+			(uuid "812acf81-2f95-40a6-81a7-4e0dc20541bf")
+		)
+		(pin "1"
+			(uuid "c989df7b-4f0a-4a51-a087-b274ef46d613")
+		)
+		(pin "2"
+			(uuid "d35266db-e466-425e-bf2b-b80878aef0d1")
+		)
+		(pin "3"
+			(uuid "c4e87ff6-6941-438f-af2b-d08e70f6b8d2")
+		)
+		(pin "6"
+			(uuid "eafc0890-4c76-44ac-a9fc-135e98be8888")
+		)
+		(pin "8"
+			(uuid "18e76dba-08a1-4e00-a4c8-96c811473101")
+		)
+		(instances
+			(project "0xaxe"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
+					(reference "RN1")
+					(unit 2)
 				)
 			)
 		)
@@ -21149,91 +22166,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 107.95 185.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3e38c82-3103-4dde-ba53-94ef30bb580f")
-		(property "Reference" "R42"
-			(at 107.95 183.515 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 107.95 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 107.95 187.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-10KJRCT-ND"
-			(at 107.95 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402JR-0710KL"
-			(at 107.95 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7c309a0-f955-495d-b184-e020bb348373")
-		)
-		(pin "2"
-			(uuid "bcc6a161-f882-4ffe-9e59-11706bb34513")
-		)
-		(instances
-			(project "0xaxe"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
-					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mylib7:+1V8_0")
 		(at 353.06 101.6 270)
 		(unit 1)
@@ -21966,6 +22898,92 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Network04_Split_1")
+		(lib_id "Device:R_Network04_Split")
+		(at 168.91 231.14 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcb2af1e-7f14-465e-92e4-3421617e76b2")
+		(property "Reference" "RN4"
+			(at 168.91 229.235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 168.91 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+			(at 168.91 233.172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 168.91 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 168.91 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "9ca0f90b-11b1-4e9a-863b-f18cae05e739")
+		)
+		(pin "4"
+			(uuid "e5b13cc2-05fd-4d04-83cf-262c513c779a")
+		)
+		(pin "6"
+			(uuid "18ef5411-3d1a-492d-bc79-41a4bf15ec43")
+		)
+		(pin "2"
+			(uuid "c989df7b-4f0a-4a51-a087-b274ef46d614")
+		)
+		(pin "1"
+			(uuid "d35266db-e466-425e-bf2b-b80878aef0d2")
+		)
+		(pin "3"
+			(uuid "8e777cfa-15d9-4dcd-9160-18dfb6fd161e")
+		)
+		(pin "5"
+			(uuid "961ec9da-6a65-4e14-aee1-c44ed064719c")
+		)
+		(pin "8"
+			(uuid "10791f17-339f-43d1-938b-7f13143322b4")
+		)
+		(instances
+			(project "0xaxe"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
+					(reference "RN4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mylib7:GND_0")
 		(at 353.06 167.64 0)
 		(mirror y)
@@ -22660,91 +23678,6 @@
 			(project "0xaxe"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
 					(reference "#PWR0169")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 107.95 226.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e6636a67-3859-469c-adb5-55d9a00bb6d3")
-		(property "Reference" "R48"
-			(at 107.95 224.155 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 107.95 226.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 107.95 227.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-10KJRCT-ND"
-			(at 107.95 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402JR-0710KL"
-			(at 107.95 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "def10592-3d67-4693-9e95-15f94c3bc1f0")
-		)
-		(pin "2"
-			(uuid "b3fc5036-1121-4284-8229-8dff27cbc3c0")
-		)
-		(instances
-			(project "0xaxe"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
-					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -23995,91 +24928,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 189.23 162.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4fa3962-f265-49f5-b3c0-3e35c77b0329")
-		(property "Reference" "R68"
-			(at 189.23 160.655 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 189.23 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 189.23 160.782 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 189.23 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-1.00KLRCT-ND"
-			(at 189.23 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402FR-071KL"
-			(at 189.23 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e3112fe-f090-4ac8-8d86-63c6690fe239")
-		)
-		(pin "2"
-			(uuid "34460e12-929e-447f-85de-2f2b63cd8455")
-		)
-		(instances
-			(project "0xaxe"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
-					(reference "R68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mylib7:GND_0")
 		(at 266.7 167.64 0)
 		(mirror y)
@@ -24141,6 +24989,92 @@
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
 					(reference "#PWR0176")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Network04_Split_2")
+		(lib_id "Device:R_Network04_Split")
+		(at 189.23 208.28 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7e73855-82b9-4821-96d7-571de50d8e08")
+		(property "Reference" "RN4"
+			(at 189.23 206.375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 189.23 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXB-28V103JX:EXB28V_PAN"
+			(at 189.23 210.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 189.23 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, split"
+			(at 189.23 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9ca0f90b-11b1-4e9a-863b-f18cae05e73a")
+		)
+		(pin "4"
+			(uuid "e5b13cc2-05fd-4d04-83cf-262c513c779b")
+		)
+		(pin "2"
+			(uuid "812acf81-2f95-40a6-81a7-4e0dc20541c0")
+		)
+		(pin "7"
+			(uuid "a1ef7a84-386e-4421-b967-960550a22b5b")
+		)
+		(pin "1"
+			(uuid "d35266db-e466-425e-bf2b-b80878aef0d3")
+		)
+		(pin "3"
+			(uuid "a201b936-3541-4b84-9b21-3c31a56d8958")
+		)
+		(pin "6"
+			(uuid "9b586bf3-0928-49c2-a379-86ed81b55a1c")
+		)
+		(pin "8"
+			(uuid "a4390033-a022-4681-9536-2a47f720f7be")
+		)
+		(instances
+			(project "0xaxe"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
+					(reference "RN4")
+					(unit 4)
 				)
 			)
 		)
@@ -24588,91 +25522,6 @@
 			(project "0xaxe"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
 					(reference "#PWR0179")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 107.95 180.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc05e7cb-aef4-4807-8767-03152324e36a")
-		(property "Reference" "R37"
-			(at 107.95 178.435 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 107.95 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 107.95 178.562 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "311-10KJRCT-ND"
-			(at 107.95 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "RC0402JR-0710KL"
-			(at 107.95 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6472703-49b6-468e-b26f-2e9a17c4aa68")
-		)
-		(pin "2"
-			(uuid "b057abe9-46da-4dd1-bb03-0d12e87156d6")
-		)
-		(instances
-			(project "0xaxe"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/84d407d0-bd71-403d-bc5c-679b63d0a5ac/3880e901-f61e-41a0-a16a-1a9a6a6176ec"
-					(reference "R37")
 					(unit 1)
 				)
 			)
