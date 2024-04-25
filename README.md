@@ -107,11 +107,12 @@ Mining Client
 ![image](https://github.com/shufps/0xaxe/assets/3079832/8c144fcf-1d3e-4634-a884-1094abb9330f)
 
 
+Stratum Mining Client:<br>
+https://github.com/shufps/piaxe-miner
+
 Misc
 ====
 If you like this project and want to support future work, feel free to donate to: `bc1q29hp4fqtks2wzpmfwtpac64fnr8ujw2nvnra04`
 
 
 
-Stratum Mining Client:<br>
-https://github.com/shufps/piaxe-miner
