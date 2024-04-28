@@ -7284,7 +7284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitvein:BM1366"
+		(property "Footprint" "myfootprints:BM1366-user1-soldermask"
 			(at 327.66 76.2 0)
 			(effects
 				(font
@@ -13101,7 +13101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitvein:BM1366"
+		(property "Footprint" "myfootprints:BM1366-user1-soldermask"
 			(at 165.1 76.2 0)
 			(effects
 				(font
@@ -14361,7 +14361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitvein:BM1366"
+		(property "Footprint" "myfootprints:BM1366-user1-soldermask"
 			(at 83.82 76.2 0)
 			(effects
 				(font
@@ -17645,7 +17645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitvein:BM1366"
+		(property "Footprint" "myfootprints:BM1366-user1-soldermask"
 			(at 246.38 76.2 0)
 			(effects
 				(font
