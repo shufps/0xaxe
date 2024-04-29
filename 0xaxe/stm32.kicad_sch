@@ -14864,14 +14864,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "311-3342-1-ND"
-			(at 38.1 163.83 0)
+		(property "Value" "100n"
+			(at 43.942 165.608 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -15324,6 +15323,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" "D"
+			(at 73.66 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SN74AVC4T774PWR"
+			(at 73.66 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "296-24739-1-ND"
+			(at 73.66 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e4e2d25-c225-4fc0-8893-64dacfc41c0b")
 		)
@@ -15399,14 +15425,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "311-3342-1-ND"
-			(at 114.3 163.83 0)
+		(property "Value" "100n"
+			(at 114.554 167.132 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"

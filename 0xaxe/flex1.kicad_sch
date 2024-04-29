@@ -8255,7 +8255,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV3544"
+		(property "Value" "TLV9154"
 			(at 193.04 227.33 0)
 			(effects
 				(font
@@ -8300,6 +8300,33 @@
 			)
 		)
 		(property "PARTNO" "TLV3544IPWR"
+			(at 185.42 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 185.42 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TLV9154IDR"
+			(at 185.42 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "296-TLV9154IDRCT-ND"
 			(at 185.42 223.52 0)
 			(effects
 				(font
@@ -8452,7 +8479,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100p"
 			(at 187.96 155.575 90)
 			(effects
 				(font
@@ -8758,7 +8785,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100p"
 			(at 187.96 201.295 90)
 			(effects
 				(font
@@ -9456,7 +9483,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-CX"
 			(at 107.95 231.14 90)
 			(effects
 				(font
@@ -9484,6 +9511,33 @@
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
 			(at 91.948 231.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 107.95 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CAY16-1002F4LF"
+			(at 107.95 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+			(at 107.95 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10021,7 +10075,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-CX"
 			(at 189.23 162.56 90)
 			(effects
 				(font
@@ -10049,6 +10103,33 @@
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
 			(at 205.232 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 189.23 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CAY16-1002F4LF"
+			(at 189.23 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+			(at 189.23 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10326,7 +10407,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-CX"
 			(at 168.91 226.06 90)
 			(effects
 				(font
@@ -10354,6 +10435,33 @@
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
 			(at 184.912 225.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 168.91 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CAY16-1002F4LF"
+			(at 168.91 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+			(at 168.91 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10542,7 +10650,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-CX"
 			(at 168.91 175.26 90)
 			(effects
 				(font
@@ -10570,6 +10678,33 @@
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
 			(at 152.908 175.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 168.91 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CAY16-1002F4LF"
+			(at 168.91 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+			(at 168.91 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12097,7 +12232,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV3544"
+		(property "Value" "TLV9154"
 			(at 131.445 180.975 0)
 			(effects
 				(font
@@ -12142,6 +12277,33 @@
 			)
 		)
 		(property "PARTNO" "TLV3544IPWR"
+			(at 121.92 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 121.92 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TLV9154IDR"
+			(at 121.92 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "296-TLV9154IDRCT-ND"
 			(at 121.92 177.8 0)
 			(effects
 				(font
@@ -13908,7 +14070,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-CX"
 			(at 107.95 220.98 90)
 			(effects
 				(font
@@ -13936,6 +14098,33 @@
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
 			(at 91.948 221.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 107.95 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CAY16-1002F4LF"
+			(at 107.95 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+			(at 107.95 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14778,7 +14967,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-CX"
 			(at 107.95 175.26 90)
 			(effects
 				(font
@@ -14806,6 +14995,33 @@
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
 			(at 123.952 174.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 107.95 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CAY16-1002F4LF"
+			(at 107.95 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+			(at 107.95 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16595,7 +16811,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV3544"
+		(property "Value" "TLV9154"
 			(at 130.175 227.33 0)
 			(effects
 				(font
@@ -16640,6 +16856,33 @@
 			)
 		)
 		(property "PARTNO" "TLV3544IPWR"
+			(at 121.92 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 121.92 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TLV9154IDR"
+			(at 121.92 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "296-TLV9154IDRCT-ND"
 			(at 121.92 223.52 0)
 			(effects
 				(font
@@ -16856,7 +17099,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-CX"
 			(at 168.91 185.42 90)
 			(effects
 				(font
@@ -16884,6 +17127,33 @@
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
 			(at 152.908 185.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 168.91 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CAY16-1002F4LF"
+			(at 168.91 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+			(at 168.91 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17095,7 +17365,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-CX"
 			(at 168.91 180.34 90)
 			(effects
 				(font
@@ -17123,6 +17393,33 @@
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
 			(at 152.908 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 168.91 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CAY16-1002F4LF"
+			(at 168.91 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+			(at 168.91 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17407,7 +17704,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-CX"
 			(at 189.23 208.28 90)
 			(effects
 				(font
@@ -17435,6 +17732,33 @@
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
 			(at 173.228 208.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 189.23 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CAY16-1002F4LF"
+			(at 189.23 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+			(at 189.23 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18159,7 +18483,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1µ"
 			(at 105.41 162.56 0)
 			(effects
 				(font
@@ -18553,7 +18877,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-CX"
 			(at 125.73 208.28 90)
 			(effects
 				(font
@@ -18581,6 +18905,33 @@
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
 			(at 141.732 207.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 125.73 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CAY16-1002F4LF"
+			(at 125.73 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+			(at 125.73 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19760,7 +20111,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-CX"
 			(at 107.95 180.34 90)
 			(effects
 				(font
@@ -19788,6 +20139,33 @@
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
 			(at 123.952 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 107.95 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CAY16-1002F4LF"
+			(at 107.95 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+			(at 107.95 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19845,7 +20223,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-CX"
 			(at 107.95 226.06 90)
 			(effects
 				(font
@@ -19873,6 +20251,33 @@
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
 			(at 91.948 226.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 107.95 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CAY16-1002F4LF"
+			(at 107.95 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+			(at 107.95 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19930,7 +20335,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-CX"
 			(at 125.73 162.56 90)
 			(effects
 				(font
@@ -19958,6 +20363,33 @@
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
 			(at 109.728 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 125.73 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CAY16-1002F4LF"
+			(at 125.73 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+			(at 125.73 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20254,7 +20686,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-CX"
 			(at 107.95 185.42 90)
 			(effects
 				(font
@@ -20282,6 +20714,33 @@
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
 			(at 123.952 184.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 107.95 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CAY16-1002F4LF"
+			(at 107.95 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+			(at 107.95 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21028,7 +21487,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100n"
 			(at 102.235 162.56 0)
 			(effects
 				(font
@@ -22205,7 +22664,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-CX"
 			(at 168.91 231.14 90)
 			(effects
 				(font
@@ -22233,6 +22692,33 @@
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
 			(at 184.912 230.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 168.91 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CAY16-1002F4LF"
+			(at 168.91 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+			(at 168.91 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23319,7 +23805,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100p"
 			(at 124.46 201.295 90)
 			(effects
 				(font
@@ -24300,7 +24786,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k-CX"
 			(at 168.91 220.98 90)
 			(effects
 				(font
@@ -24328,6 +24814,33 @@
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
 			(at 184.912 220.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 168.91 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CAY16-1002F4LF"
+			(at 168.91 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+			(at 168.91 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24473,7 +24986,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100p"
 			(at 124.46 155.575 90)
 			(effects
 				(font
@@ -24559,7 +25072,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV3544"
+		(property "Value" "TLV9154"
 			(at 193.675 180.975 0)
 			(effects
 				(font
@@ -24604,6 +25117,33 @@
 			)
 		)
 		(property "PARTNO" "TLV3544IPWR"
+			(at 185.42 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 185.42 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TLV9154IDR"
+			(at 185.42 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "296-TLV9154IDRCT-ND"
 			(at 185.42 177.8 0)
 			(effects
 				(font
