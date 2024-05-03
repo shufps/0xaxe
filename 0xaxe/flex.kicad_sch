@@ -4591,7 +4591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "D"
+		(property "Distributor" ""
 			(at 289.56 66.04 0)
 			(effects
 				(font
@@ -4600,7 +4600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "CAY16-1002F4LF"
+		(property "Manufacturer" ""
 			(at 289.56 66.04 0)
 			(effects
 				(font
@@ -4609,7 +4609,7 @@
 				(hide yes)
 			)
 		)
-		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+		(property "OrderNr" ""
 			(at 289.56 66.04 0)
 			(effects
 				(font
@@ -4962,7 +4962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "D"
+		(property "Distributor" ""
 			(at 308.61 66.04 0)
 			(effects
 				(font
@@ -4971,7 +4971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "CAY16-1002F4LF"
+		(property "Manufacturer" ""
 			(at 308.61 66.04 0)
 			(effects
 				(font
@@ -4980,7 +4980,7 @@
 				(hide yes)
 			)
 		)
-		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+		(property "OrderNr" ""
 			(at 308.61 66.04 0)
 			(effects
 				(font
@@ -6345,7 +6345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "D"
+		(property "Distributor" ""
 			(at 317.5 66.04 0)
 			(effects
 				(font
@@ -6354,7 +6354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "CAY16-1002F4LF"
+		(property "Manufacturer" ""
 			(at 317.5 66.04 0)
 			(effects
 				(font
@@ -6363,7 +6363,7 @@
 				(hide yes)
 			)
 		)
-		(property "OrderNr" "CAY16-1002F4LFCT-ND"
+		(property "OrderNr" ""
 			(at 317.5 66.04 0)
 			(effects
 				(font
