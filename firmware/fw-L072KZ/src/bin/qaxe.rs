@@ -39,6 +39,8 @@ use panic_probe as _;
 extern crate alloc;
 extern crate alloc_cortex_m;
 
+mod uid;
+
 mod protobuf;
 use protobuf::coms::{QControl, QRequest, QResponse, QState};
 use quick_protobuf::{self, MessageWrite};
@@ -149,7 +151,7 @@ async fn main(spawner: Spawner) {
     config.max_packet_size_0 = 64;
     config.manufacturer = Some("microengineer");
     config.product = Some("Flex4Axe");
-    config.serial_number = Some("rev1");
+    config.serial_number = Some(uid::uid_hex());
 
     // Required for windows compatibility.
     // https://developer.nordicsemi.com/nRF_Connect_SDK/doc/1.9.1/kconfig/CONFIG_CDC_ACM_IAD.html#help
