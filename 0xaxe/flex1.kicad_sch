@@ -13342,7 +13342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm"
 			(at 105.41 157.48 0)
 			(effects
 				(font
@@ -13378,7 +13378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "ADUM141E0BRZ-RL7"
+		(property "Manufacturer" "ADUM141D1BRQZ"
 			(at 105.41 139.7 0)
 			(effects
 				(font
@@ -13387,7 +13387,7 @@
 				(hide yes)
 			)
 		)
-		(property "OrderNr" "505-ADUM141E0BRZ-RL7CT-ND"
+		(property "OrderNr" "ADUM141D1BRQZ-ND"
 			(at 105.41 139.7 0)
 			(effects
 				(font
