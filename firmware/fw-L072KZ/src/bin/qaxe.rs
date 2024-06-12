@@ -150,7 +150,7 @@ async fn main(spawner: Spawner) {
     let mut config = embassy_usb::Config::new(0xc0de, 0xcafe);
     config.max_packet_size_0 = 64;
     config.manufacturer = Some("microengineer");
-    config.product = Some("Flex4Axe");
+    config.product = Some("0xAxe");
     config.serial_number = Some(uid::uid_hex());
 
     // Required for windows compatibility.
