@@ -1,3 +1,6 @@
+**WARNING: The 0xAxe is the *end level boss for Pros*. It's hard to get it working properly. The main reason is the powering scheme that uses 4 different voltage domain. It's difficult to get it into balance properly and needs very good and uniform cooling. The device works but can be super frustrating until it really is mining as it should. **
+
+
 # 0xaxe
 
 0xAxe is a 16-ASIC-BM1366 Miner based on the [QAxe](https://github.com/shufps/qaxe)
